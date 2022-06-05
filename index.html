@@ -1,0 +1,152 @@
+<!--Bootstrap theme by Blackrock Digital licensed under MIT(https://startbootstrap.com/)-->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <meta name="author" content="Julia Korolko">
+    <title>Julia Korolko</title>
+    <meta property="og:type"               content="website" />
+    <link href="css/styles.css" rel="stylesheet">   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        crossorigin="anonymous"></script>           
+</head>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Julia Korolko</a>            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">                    
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#about">O MNIE </a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#contact">KONTAKT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <style> 
+        .navbar  {
+            background-color: #8FBC8F; /* Zamieniłam bootstrapowy background color - success na zwykły kolor css */
+           
+        }        
+        
+    </style>
+    <header class="masthead bg-dark text-white text-center">
+        <div class="cont">
+           <img class="masthead-avatar mb-5" src="image/me.png" alt="logo">         
+            <h1 class="masthead-heading mb-0">Julia Korolko</h1>   
+            <p></p>
+            <p class="pre-wrap masthead-subheading font-weight-light mb-0">Studentka</br>Akademii Górniczo-Hutniczej im. Stanisława Staszica w Krakowie</br>(Informatyka i Ekonometria)</p>
+        </div>
+        <style> 
+             .cont {   /* Nie było potrzeby dodawania osobno klasy d-flex, więc zmieniłam i dodałam po prostu właściwość display */
+               display: flex;
+               align-items:center;
+               flex-flow: column;
+            }
+        </style>
+       
+    </header>
+    <section class="page-section bg-light text-dark mb-0" id="about">
+        <div class="container">
+            
+            <div class="text-center">
+                <h2 class="page-section-heading d-inline-block text-dark">O MNIE</h2>
+            </div>         
+            <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>                
+                <div class="divider-custom-line"></div>
+            </div>
+            
+            <div class="text-center">
+                <p class = "w">Wykształcenie:</p>
+                <p class="pre-wrap lead">2018-2019 Międzynarodowe Centrum Kształcenia Politechniki Krakowskiej</br>2007-2018 Gimnazjum nr 1 (Grodnie, Białoruś), klasa o profilu matematyczno - angielskim </p>               
+                <p class = "zn">Znajomość języków:</p>
+                <p class="pre-wrap lead">Język białoruski i rosyjski - języki ojczyste</br>Język polski i angielski - poziom C1 </p>
+                <p class = "in">Inne zainteresowania:</p>
+                <p class="pre-wrap lead">Debaty w języku angielskim</br>Fotografia analogowa</br>Tenis stołowy </p>
+                <p class = "ul">Ulubione zespoły muzyczne:</p>
+                <p class="pre-wrap lead">Depeche Mode, Scorpions, Def Leppard</p>
+            </div>
+            <style> /* Zamieniłam tagi stylujące <strong> */
+        .w{
+            font-weight: bold;
+        }
+        .zn{
+            font-weight: bold;           
+        }
+        .in{
+            font-weight: bold;   
+        }
+        .ul{
+            font-weight: bold;         
+        }
+            </style>
+        </div>
+    </section>
+    <section class="page-section bg-secondary text-light" id="contact">
+        <div class="container">           
+            <div class="text-center">
+                <h2 class="page-section-heading text-light d-inline-block mb-0">KONTAKT</h2>
+            </div>       
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>               
+                <div class="divider-custom-line"></div>
+            </div>          
+            <div class="row justify-content-center">
+                <div class="face">
+                    <a href="https://www.facebook.com/juliakorolko/"><div class="icon-contact mb-3"><i class="fab fa-facebook-f"></i></div></a>
+                    <div class="text-muted">Facebook</div><a class="lead font-weight-bold"
+                        href="https://www.facebook.com/juliakorolko/">Julia Korolko</a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-white">
+                    <div class="tel text-white">
+                        <a href="tel:+48-690276337"><div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div></a>
+                        <div class="text-muted">Telefon</div>
+                        <div class="lead font-weight-bold text-white"><a href="tel:+48-690276337">+48 690276337</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="gmail">
+                        <a href="mailto:julikorolko@gmail.com"><div class="icon-contact mb-3"><i class="far fa-envelope"></i></div></a>
+                        <div class="text-muted">E-mail</div><a class="lead font-weight-bold"
+                            href="mailto:julikorolko@gmail.com">julikorolko@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style> /* Nadal zamieniam klasy d-flex na właściwości display */
+            .face {  
+              display: flex;
+              align-items:center;
+              flex-flow: column;
+           }
+            
+             .tel {   
+               display: flex;
+               align-items:center;
+               flex-flow: column;
+            }
+            .gmail {  
+               display: flex;
+               align-items:center;
+               flex-flow: column;
+            }
+        
+       </style>
+    </section>
+    <div class="scroll-to-top d-lg-none position-fixed"><a
+        class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+            class="fa fa-chevron-up"></i></a></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
